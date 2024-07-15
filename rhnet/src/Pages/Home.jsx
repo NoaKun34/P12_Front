@@ -1,7 +1,11 @@
+import React from "react";
+import "../index.css";
+import Form from "../Components/Form.jsx";
+
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+        <Form />
     </div>
   );
 }
