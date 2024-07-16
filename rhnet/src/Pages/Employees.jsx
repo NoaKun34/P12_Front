@@ -8,7 +8,6 @@ import Table from "../Components/Table.jsx";
 
 export default function Employees() {
 
-  //const columnsTitle = ["firstName", "lastName", "birthDate", "startDate", "street", "city", "state", "zip", "department"];
   const employeesData = useSelector((state) => state.employees);
   const columnsNames = useMemo(() => columnsTitles, []);
   const rowsData = useMemo(() => employeesData, [employeesData]);
